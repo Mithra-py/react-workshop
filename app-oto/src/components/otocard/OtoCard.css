@@ -1,0 +1,60 @@
+*{
+    margin: 4px;
+}
+.maincarddiv{
+    max-width: 900px;
+    display: flex;
+    margin: auto;
+    box-shadow: 5px 2px 19px 0px rgba(0,0,0,0.09);
+    margin-top: 3rem;
+}
+.cardimg{
+    max-width: 300px;
+    margin: 20px;
+    background-color: rgb(250, 247, 247);
+}
+
+.cardtitle{
+    display: flex;
+    margin-left: 0;
+}
+
+.cardtitle strong{
+    margin-left: 0;
+    color: blue;
+}
+
+.cardup{
+    display: flex;
+    justify-content: space-between;
+}
+strong, .icondots{
+    display: flex;
+}
+
+.carquality{
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.pricediv{
+    display: flex;
+    gap: 20px;
+}
+
+.pricediv p{
+    display: flex;
+    justify-content: start;
+    margin-left: 0;
+}
+.pricediv h2{
+    display: flex;
+    justify-content: start;
+    margin-left: 0;
+}
+
+.qualityicon{
+    margin: 0;
+}

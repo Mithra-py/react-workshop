@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+
+
+.footerdiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.mainfooterdiv{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.popupitems{
+    margin: 0;
+}
+
+.popupitems span{
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.footerdiv i{
+    cursor: pointer;
+    margin-right: 0;
+}
+
+.footericonsdiv{
+    margin-right: 0;
+}

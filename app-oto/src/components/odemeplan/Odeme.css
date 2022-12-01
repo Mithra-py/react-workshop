@@ -1,0 +1,72 @@
+.planmaindiv{
+    margin: auto;
+    max-width: 800px;
+    margin-top: 3rem;
+    box-shadow: 5px 2px 19px 0px rgba(0,0,0,0.09);
+}
+
+.planmaindiv p{
+    display: flex;
+    justify-content: start;
+    color: blue;
+}
+
+.odemetitle{
+    margin-left: 2rem;
+}
+
+.plandetay{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plandetay span{
+    color: blue;
+}
+
+.odemefiyat{
+    margin-left: 1.5rem;
+}
+
+.plangoster{
+    border:2px rgb(239, 119, 0) solid;
+    border-radius: 100px;
+    padding: 6px;
+    color: rgb(239, 119, 0);
+}
+
+.doublebutton{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+}
+
+.dbbuttonleft{
+    border: 2px rgb(239, 119, 0) solid;
+    border-radius: 100px;
+    padding: 6px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color: rgb(239, 119, 0);
+}
+
+.dbbuttonright{
+    border: 0 rgb(239, 119, 0) solid;
+    background-color: rgb(239, 119, 0);
+    border-radius: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+}
+
+.topdivodeme{
+    max-width: 800px;
+    margin: auto;
+}
