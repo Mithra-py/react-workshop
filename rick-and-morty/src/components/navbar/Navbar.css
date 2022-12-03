@@ -1,0 +1,27 @@
+li{
+    list-style-type: none;
+}
+
+.mainnavdiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 51, 51);
+}
+
+.logoimg{
+    max-height: 80px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.navpageslink{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 0;
+    margin: 0 10.5rem;
+}

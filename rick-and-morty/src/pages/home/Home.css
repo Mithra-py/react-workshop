@@ -1,0 +1,19 @@
+.homepage{
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1{
+    font-size: 3.1rem;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.homeimg{
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.movieExplain{
+    display: inline-block;
+}
