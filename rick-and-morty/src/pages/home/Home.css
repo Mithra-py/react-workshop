@@ -17,3 +17,40 @@ h1{
 .movieExplain{
     display: inline-block;
 }
+
+.homemiddlediv{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.homemiddlediv p{
+    font-size: 1.5rem;
+    margin: 1.5rem 0rem 1.5rem 1rem;
+}
+
+.maincharactercard{
+    gap: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.charactercard{
+    max-width: 272px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.charactercard img{
+    max-width: 272px;
+    border-radius: 10px;
+}
+
+.charactercard h3{
+    margin: 12px 0;
+    color: rgb(91, 202, 240);
+}

@@ -2,14 +2,14 @@ import React from 'react';
 import './Home.css';
 
 
-const Home = (results) => {
-  console.log(results.results);
+const Home = ({ results }) => {
+  // console.log(results);
   return (
     <div className='homepage'>
       <div>
         <h1>Rick And Morty</h1>
       </div>
-      <div>
+      <div className='homemiddlediv'>
         <img className='homeimg' src="https://the-rich-and-morty.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner.dd1b07aa.webp&w=640&q=75" alt="" />
         <div>
           <p className='movieExplain'>
@@ -21,13 +21,15 @@ const Home = (results) => {
         </div>
       </div>
 
-      <div>
-        {results.map(({result}) => (
-          <div>
-            <img src={result.image} alt='' />
-            <div>{result.name}</div>
-          </div>
-        ))}
+      <div className='maincharactercard'>
+        {results?.map((result) => {
+          return (
+            <div className='charactercard' key={result.id}>
+              <img src={result.image} alt="" />
+              <h3>{result.name}</h3>
+            </div>
+          )
+        })};
       </div>
     </div>
   )

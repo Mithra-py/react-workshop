@@ -18,12 +18,12 @@ const
             try {
                 const { data } = await axios.get(url);
                 setResults(data.results);
+                // console.log(data.results);
             } catch (error) {
                 console.log(error);
             }
         };
 
-        
 
         useEffect(() => {
             getData()
@@ -34,7 +34,7 @@ const
             <div>
                 <Navbar />
                 <Routes className='Routes' >
-                    <Route path='/' element={<Home results={results}/>} />
+                    <Route path='/' element={<Home results = {results}/>} />
                     <Route path='Episodes' element={<Episodes />} />
                     <Route path='About' element={<About />} />
                     <Route path='*' element={<NotFound />} />

@@ -1,0 +1,28 @@
+.notfoundpage{
+    display: grid;
+    justify-items: center;
+    background-color: rgb(182, 223, 168);
+}
+
+.notfoundpage div{
+    display: grid;
+    justify-items: center;
+    font-size: 2.5rem;
+}
+
+.notfoundpage h2{
+    color: rgb(51, 51, 51);
+    font-size: 5rem;
+    margin: 20px 0;
+}
+
+.notfoundpage button{
+    background-color: #b6dfa8;
+    color: rgb(51, 51, 51);
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
