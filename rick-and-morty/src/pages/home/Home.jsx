@@ -1,8 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Home.css';
 
 
+
 const Home = ({ results }) => {
+  const navigate = useNavigate();
   // console.log(results);
   return (
     <div className='homepage'>
@@ -20,17 +23,23 @@ const Home = ({ results }) => {
           </p>
         </div>
       </div>
-
-      <div className='maincharactercard'>
+      <span className='maincharactercard'>
         {results?.map((result) => {
+          const { id, name, image } = result;
+          console.log(result);
           return (
-            <div className='charactercard' key={result.id}>
-              <img src={result.image} alt="" />
-              <h3>{result.name}</h3>
-            </div>
-          )
-        })};
-      </div>
+            <div
+              onClick={() => navigate(`${id}`, { state: results })}>
+
+              <div className='charactercard' key={`${id}`}>
+                <img src={image} alt="" />
+                <h3>{name}</h3>
+              </div>
+            </div>)
+        })}
+      </span>
+
+
     </div>
   )
 }

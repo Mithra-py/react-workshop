@@ -7,6 +7,7 @@ import About from './pages/about/About';
 import Footer from './components/footer/Footer';
 import NotFound from './pages/notfound/NotFound';
 import axios from 'axios';
+import Detail from './pages/detail/Detail';
 
 const
     RoutePack = () => {
@@ -35,6 +36,7 @@ const
                 <Navbar />
                 <Routes className='Routes' >
                     <Route path='/' element={<Home results = {results}/>} />
+                    <Route path=':id' element={<Detail/>} />
                     <Route path='Episodes' element={<Episodes />} />
                     <Route path='About' element={<About />} />
                     <Route path='*' element={<NotFound />} />
