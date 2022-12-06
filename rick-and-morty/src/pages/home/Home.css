@@ -35,6 +35,7 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     cursor: pointer;
+    margin-bottom: 1rem;
 }
 
 .charactercard{

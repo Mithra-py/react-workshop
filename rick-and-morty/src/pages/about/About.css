@@ -1,0 +1,25 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about img{
+    max-width: 565px;
+    margin-right: 5px;
+}
+
+.abouttext{
+    display: inline-block;
+    margin-left: 21.8rem;
+    font-size: 1.25rem;
+}
+
+.abouticons{
+    display: flex;
+    gap: 1rem;
+    font-size: xx-large;
+}
+
+.abouttext h3{
+    color: #17a2b8;
+}

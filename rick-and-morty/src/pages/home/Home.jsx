@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import './Home.css';
 
 
-
 const Home = ({ results }) => {
   const navigate = useNavigate();
   // console.log(results);
@@ -24,9 +23,9 @@ const Home = ({ results }) => {
         </div>
       </div>
       <span className='maincharactercard'>
-        {results?.map((result) => {
-          const { id, name, image } = result;
-          console.log(result);
+        {results?.map((results) => {
+          const { id, name, image } = results;
+          // console.log(result);
           return (
             <div
               onClick={() => navigate(`${id}`, { state: results })}>
