@@ -14,7 +14,7 @@ const Episodes = () => {
 
   const desEpisodes = (episodes.results)
   
-  console.log(desEpisodes);
+  // console.log(desEpisodes);
   
 
   return (
