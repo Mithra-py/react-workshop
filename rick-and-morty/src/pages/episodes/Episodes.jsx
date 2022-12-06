@@ -3,7 +3,7 @@ import './Episodes.css'
 
 const Episodes = () => {
 
-  const [episodes, setEpisodes] = useState()
+  const [episodes, setEpisodes] = useState({})
   
   useEffect(() => {
     fetch('https://rickandmortyapi.com/api/episode')
@@ -12,19 +12,24 @@ const Episodes = () => {
       .catch((err) => console.log(err));
   }, []);
 
-  console.log(episodes);
+  const desEpisodes = (episodes.results)
+  
+  console.log(desEpisodes);
+  
 
   return (
-    <div>
-        {/* {episodes?.map((results) => {
-          console.log(results);
-          return (
-            <div key={episodes}>
-              <div key={results.id}>
-                
-              </div>
-            </div>)
-        })} */}
+    <div className='episodes'>
+       {desEpisodes?.map((result) => (
+                    <div className='episodescard'>
+                        <div key={result.id}>
+                            <div>
+                                <h3>Episode Name : {result.name}</h3>
+                                <p>Episode : {result.episode}</p>
+                                <p>Episode Air Date : {result.air_date}</p>
+                            </div>
+                        </div>
+                    </div>
+                ))}
     </div>
   )
 }

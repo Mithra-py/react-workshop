@@ -1,0 +1,25 @@
+.episodes {
+    margin: auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10px,380px));
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.episodescard{
+    border: 0.5px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.episodescard p{
+    margin-top: 0;
+}
+
+.episodescard h3{
+    margin-top: 0;
+}
