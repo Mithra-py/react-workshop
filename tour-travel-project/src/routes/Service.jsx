@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import img from "../assets/1.jpg"
+import Trip from '../components/Trip'
 
 const Service = () => {
   return (
@@ -11,6 +12,7 @@ const Service = () => {
         title="Service"
         btnClass="hide"
       />
+      <Trip/>
     </>
   )
 }
