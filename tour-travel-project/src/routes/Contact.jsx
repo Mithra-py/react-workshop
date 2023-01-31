@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import img2 from "../assets/2.jpg"
+import ContactForm from '../components/ContactForm'
 
 const Contact = () => {
   return (
@@ -11,6 +12,7 @@ const Contact = () => {
         title="Contact"
         btnClass="hide"
       />
+      <ContactForm/>
     </>
   )
 }
