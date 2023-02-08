@@ -66,9 +66,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="services__container container grid">
         <div className="services__content">
           <div>
             <i className="uil uil-arrow services__icon"></i>
@@ -121,9 +119,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="services__container container grid">
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
