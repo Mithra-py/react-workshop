@@ -68,11 +68,6 @@ const Qualification = () => {
                                 </div>
                             </div>
 
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-
-                            </div>
                         </div>
 
 
@@ -107,12 +102,6 @@ const Qualification = () => {
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt"></i>2021 - 2022
                                 </div>
-                            </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-
                             </div>
                         </div>
                     </div>
